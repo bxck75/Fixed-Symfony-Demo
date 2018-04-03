@@ -1,4 +1,10 @@
 {
+    "beberlei/assert": {
+        "version": "v2.9.3"
+    },
+    "cocur/background-process": {
+        "version": "v0.7"
+    },
     "composer/ca-bundle": {
         "version": "1.0.8"
     },
@@ -115,6 +121,9 @@
     },
     "php-cs-fixer/diff": {
         "version": "v1.2.0"
+    },
+    "php-school/cli-menu": {
+        "version": "2.1.0"
     },
     "psr/cache": {
         "version": "1.0.1"

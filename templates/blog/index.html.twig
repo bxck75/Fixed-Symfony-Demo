@@ -11,11 +11,17 @@
                 </a>
             </h2>
 
+            <ul id="navigation">
+            {% for item in posts %}
+                <li><a href="#">hallo</a></li>
+            {% endfor %}
+            </ul>
+
             <p class="post-metadata">
                 <span class="metadata"><i class="fa fa-calendar"></i> {{ post.publishedAt|localizeddate('long', 'medium', null, 'UTC') }}</span>
                 <span class="metadata"><i class="fa fa-user"></i> {{ post.author.fullName }}</span>
             </p>
-
+            <a href ="http://localhost:8000/public/index.php/_profiler/56aa5d?panel=events">panel</a>
             {{ post.summary|md2html }}
 
             {{ include('blog/_post_tags.html.twig') }}

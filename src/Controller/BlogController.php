@@ -74,7 +74,7 @@ class BlogController extends AbstractController
         // It can be used both in PHP files and Twig templates, but it requires to
         // have enabled the DebugBundle. Uncomment the following line to see it in action:
         //
-        // dump($post, $this->getUser(), new \DateTime());
+         dump($post, $this->getUser(), new \DateTime());
 
         return $this->render('blog/post_show.html.twig', ['post' => $post]);
     }
